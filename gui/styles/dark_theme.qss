@@ -1,0 +1,97 @@
+/* Tema oscuro para el motor de maquetas */
+
+QMainWindow {
+    background-color: #2b2b2b;
+}
+
+QMenuBar {
+    background-color: #3c3c3c;
+    color: #dddddd;
+}
+
+QMenuBar::item:selected {
+    background-color: #5a5a5a;
+}
+
+QMenu {
+    background-color: #3c3c3c;
+    color: #dddddd;
+    border: 1px solid #5a5a5a;
+}
+
+QMenu::item:selected {
+    background-color: #5a5a5a;
+}
+
+QToolBar {
+    background-color: #353535;
+    border-bottom: 1px solid #5a5a5a;
+    spacing: 3px;
+}
+
+QDockWidget {
+    color: #dddddd;
+    titlebar-close-icon: none; /* evitamos iconos por ahora */
+}
+
+QDockWidget::title {
+    background-color: #3c3c3c;
+    padding: 5px;
+    border-bottom: 1px solid #5a5a5a;
+}
+
+QGroupBox {
+    color: #dddddd;
+    border: 1px solid #5a5a5a;
+    border-radius: 4px;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 5px 0 5px;
+}
+
+QLabel {
+    color: #cccccc;
+}
+
+QPushButton {
+    background-color: #4a4a4a;
+    color: #dddddd;
+    border: 1px solid #6a6a6a;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+QPushButton:hover {
+    background-color: #5a5a5a;
+}
+
+QPushButton:pressed {
+    background-color: #6a6a6a;
+}
+
+QListWidget {
+    background-color: #2b2b2b;
+    color: #dddddd;
+    border: 1px solid #5a5a5a;
+}
+
+QListWidget::item:selected {
+    background-color: #5a5a5a;
+}
+
+QDoubleSpinBox, QSpinBox {
+    background-color: #2b2b2b;
+    color: #dddddd;
+    border: 1px solid #5a5a5a;
+    padding: 2px;
+}
+
+QStatusBar {
+    background-color: #3c3c3c;
+    color: #aaaaaa;
+}
